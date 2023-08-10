@@ -1,5 +1,8 @@
 <img src="assets/IGP.svg" width=200 align="right">
 
+[![PlatformIO](https://github.com/domino4com/IGP/actions/workflows/platformio.yml/badge.svg)](https://github.com/domino4com/IGP/actions/workflows/platformio.yml)
+[![Arduino](https://github.com/domino4com/IGP/actions/workflows/arduino.yml/badge.svg)](https://github.com/domino4com/IGP/actions/workflows/arduino.yml)
+
 # IGP - Input Gas Particulate Matter
 This is a Gas Sensor measuring **Particulate Matter** in PM1, PM2.5 and PM10 using laser scattering
 | Specifications | |
