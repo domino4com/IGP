@@ -1,18 +1,14 @@
-<img src="assets/IWA.svg" width=200 align="right">
+<img src="assets/IGP.svg" width=200 align="right">
 
-# IWA - Input Weather A
-This is a Weather Sensor measuring Atmospheric **Temperature** and Relative **Humidity**
+# IGP - Input Gas Particulate Matter
+This is a Gas Sensor measuring **Particulate Matter** in PM1, PM2.5 and PM10 using laser scattering
 | Specifications | |
 | --: | :--: |
 | Communication | I²C |
-| I²C Address | 0x44 |
-| ChipSet | Sensirion SHT30-DIS|
+| I²C Address | 0x4D |
+| ChipSet | |
 | Datasheet | [.pdf](https://.pdf) |
 | Suggested Arduino Library | [GitHub](https://github.com/) |
-| Temperature Accuracy | ±0.2 °C |
-| Temperature Range | -40 to 125 °C |
-| Humidity Accuracy | ± 2 %RH |
-| Humidity Range | 0 to 100 %RH |
 
 ## Supported I²C Modes
 - [ ] 100 kbit/s Standard Mode (SM) 
