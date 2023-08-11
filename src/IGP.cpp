@@ -51,27 +51,27 @@ bool IGP::getJSON(JsonObject &doc) {
     dataSet["value"] = pm1a;
     dataSet["unit"] = "µg/m3";
 
-    dataArray.add(dataSet);  // Subsequent data sets
+    dataSet = dataArray.createNestedObject();  // Subsequent data sets
     dataSet["name"] = "PM2.5 Atm";
     dataSet["value"] = pm25a;
     dataSet["unit"] = "µg/m3";
 
-    dataArray.add(dataSet);  // Subsequent data sets
+    dataSet = dataArray.createNestedObject();   // Subsequent data sets
     dataSet["name"] = "PM10 Atm";
     dataSet["value"] = pm10a;
     dataSet["unit"] = "µg/m3";
 
-    dataArray.add(dataSet);  // Subsequent data sets
+    dataSet = dataArray.createNestedObject();   // Subsequent data sets
     dataSet["name"] = "PM1 Std";
     dataSet["value"] = pm1s;
     dataSet["unit"] = "µg/m3";
 
-    dataArray.add(dataSet);  // Subsequent data sets
+    dataSet = dataArray.createNestedObject();   // Subsequent data sets
     dataSet["name"] = "PM2.5 Std";
     dataSet["value"] = pm25s;
     dataSet["unit"] = "µg/m3";
 
-    dataArray.add(dataSet);  // Subsequent data sets
+    dataSet = dataArray.createNestedObject();   // Subsequent data sets
     dataSet["name"] = "PM10 Std";
     dataSet["value"] = pm10s;
     dataSet["unit"] = "µg/m3";
